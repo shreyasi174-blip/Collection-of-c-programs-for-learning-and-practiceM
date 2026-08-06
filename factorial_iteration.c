@@ -8,11 +8,11 @@ printf("Factorial is not defined for negative numbers");
 } else if (n == 0) {
 printf("Factorial of 0 is 1");
 } else {
-factorial 1;
-for (int i 1; i <= n; i++) {
+factorial =1;
+for (int i= 1; i <= n; i++) {
 factorial *= i;
 }
-printf("Factorial of %d is %llu.", n, factorial);
+printf("Factorial of %d is %d.", n, factorial);
 }
 return 0;
 }
