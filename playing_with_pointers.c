@@ -20,7 +20,7 @@ int main() {
 
     *pp = &x;
 
-    printf("%d, %d, %d\n", age, *p, **pp);
+    printf("%d, %d, %d\n", age, *p, **p);
 
     (*p) -= 5;
 
